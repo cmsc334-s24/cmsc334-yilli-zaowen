@@ -9,9 +9,23 @@ See the course web page [Computer Security Class Project](https://cmsc334-s24.gi
 
 #### Write your group members names below:
 
-1.
-2.
+1. Yili Yu
+2. Zaowen Chen
 
 ## Project Proposal
 
-Write your project proposal here...
+Our project will have features including but not limit to:
+
+- Build a password manager: Develop a basic password manager application that securely stores, generates, and retrieves passwords for the user.
+- Password Strength Analyzer: Build an application that evaluates the strength of passwords based on various criteria such as length, complexity, and the use of common password pitfalls.
+- Develop a Basic Cryptography Application: Create an application that implements basic cryptographic algorithms for encrypting and decrypting text messages.
+
+Core Features:
+
+- Give user rating of a password(weak, medium, strong)
+    - Using simple algorithms on string and use regular expression
+- If the password from the user is not strong enough, offer a strong password suggestion
+    - Random + certain pattern
+- Hash password and store on a server
+    - Need to figure out server side, and SQL(maybe)
+- Give user password back when he/she needs
