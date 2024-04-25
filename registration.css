@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    background-color: #f4f4f4; /* This should match the screenshot background color */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px; /* Space between input fields */
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .card {
+        margin: 20px;
+    }
+}

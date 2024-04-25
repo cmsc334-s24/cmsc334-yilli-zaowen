@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 80px; /* Adjusted to prevent navbar overlap */
+    background-color: #f4f4f4; /* Soft background color */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Soft shadow for container */
+}
+
+h1 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Makes sure padding doesn't affect width */
+}
+
+button {
+    cursor: pointer;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.navbar {
+    justify-content: center; /* Center navbar content horizontally */
+}
+
+.navbar-brand {
+    font-size: 32px; /* Larger font size */
+    font-family: 'Georgia', serif; /* Artistic font */
+    text-align: center; /* Ensure the title is centered */
+    width: 100%; /* Make the navbar-brand take the full width */
+}
